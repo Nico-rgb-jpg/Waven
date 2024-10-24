@@ -1,0 +1,160 @@
+body {
+    background-color: #f0f8ff; /* Arrière-plan doux assorti au logo */
+    color: #333; /* Texte en gris foncé */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #006666; /* Couleur turquoise foncé pour le header */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.logo-container img {
+    width: 200px;
+}
+
+#hero {
+    background-color: #222;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#hero h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.cta-button {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #e68a00;
+}
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.about-container,
+.product-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.team-member {
+    text-align: center;
+    width: 30%;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-item {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #003333;
+    color: white;
+    padding: 40px 0;
+}
+
+footer form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+footer form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+footer form input,
+footer form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer form button {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer form button:hover {
+    background-color: #e68a00;
+}
